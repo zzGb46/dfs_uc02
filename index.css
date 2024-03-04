@@ -1,0 +1,269 @@
+body{
+    background-image: linear-gradient(to top,black, purple);
+    background-attachment: fixed;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: purple;
+    font-size: 30px;
+    margin-left: 50px;
+    
+
+}
+
+#lista{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+    margin-top: 30px;
+    
+    
+}
+li:hover{
+  box-shadow: 2px 2px 2px 2px white;
+  color: black;
+  background-color: purple;
+  transform: scale(1.2);
+}
+
+li{
+    margin: 20px;
+    background-color: black;
+    color:purple;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid purple;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+#pesquisa{
+
+    
+    margin-top: 40px;
+    margin-right: 35px;
+    width: 50px;
+    height: 2px;
+}
+
+
+
+ input{
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(218, 213, 213);
+    width: 700%;
+    height: 50px;
+    margin-left: 600px;
+    margin-bottom:-30px;
+ }
+
+ #logotipo{
+height: 115px;
+width: 95px;
+margin-right: 1000px;
+animation:logo 1s ease-in-out infinite;
+
+ }
+
+
+
+ @keyframes logo{
+  0%{
+     transform: scale(1.0);
+  }
+
+  25%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1.0);
+  }
+  
+ }
+
+
+
+ 
+ main{
+   background-image: url(espaço.jpg);
+   background-attachment: fixed;
+   height: 750px;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+.scroll{
+  
+    display: flex;
+    margin-top: 40px;
+    width: 1000px;
+    height: 600px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 30px;
+    border: 2px solid purple;
+   
+   
+}
+
+
+
+  img{
+   
+    width: 1000px;
+    height: 600px;
+    
+
+  }
+
+  #segunda{
+    animation: carrossel 5s ease-in-out;
+    
+  }
+
+
+  @keyframes carrossel{
+
+    0%{
+        margin-left: -0px;
+        
+    }
+
+    25%{
+        
+    }
+
+    50%{
+     
+    }
+
+    75%{
+     
+    }
+
+    100%{
+        margin-left:-3000px ;
+        transform: rotate();
+        
+
+    }
+
+  }
+
+  footer{
+    height: 2000px;
+  }
+
+  section{
+    background-image: url(estrelas.jpg);
+    background-attachment: fixed;
+    border: 2px solid purple;
+    height: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+   
+  }
+
+  #jogos{
+    position:absolute;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 50px;
+    margin-top: 20px;
+    border: 2px solid purple;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+
+  #display{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 200px;
+    height: 500px;
+    width: 350px;
+    transition: all 1s ease-in-out;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+  }
+
+
+
+  #display:hover{
+    transform: scale(1.1);
+
+  }
+
+  #logogta{
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+  }
+
+  #logobatman{
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+  }
+
+  #logonight{
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  p{
+    position: absolute;
+    margin-top: 400px;
+  }
+
+  .display2{
+    background-color: black;
+   
+    justify-content:c;
+    position:absolute;
+    margin-top: 900px;
+    width: 250px;
+    height: 200px;
+    font-size: 60px;
+    align-items: center;
+    border: 2px solid purple;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+
+  .display3{
+    background-color: black;
+    display: flex;
+
+    margin-top: 50px;
+    
+  }
+
+  #livros{
+    height: 500px;
+    width: 350px;
+  }
+
