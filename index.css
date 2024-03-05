@@ -240,7 +240,6 @@ animation:logo 1s ease-in-out infinite;
   }
 
 .manipulacao{
-  background-color: red;
   display: flex;
   justify-content: center;
 }
