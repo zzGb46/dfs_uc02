@@ -34,7 +34,7 @@ li:hover{
 
 li{
     margin: 20px;
-    background-color: yellow;
+    background-color: black;
     color:purple;
     width: 100px;
     height: 40px;
@@ -172,7 +172,7 @@ animation:logo 1s ease-in-out infinite;
     background-image: url(estrelas.jpg);
     background-attachment: fixed;
     border: 2px solid purple;
-    height: 500px;
+    height: 1000px;
     display: flex;
     justify-content: space-evenly;
     color: white;
@@ -239,32 +239,16 @@ animation:logo 1s ease-in-out infinite;
     margin-top: 400px;
   }
 
-  .display2{
-    background-color: black;
-   
-    justify-content:c;
-    position:absolute;
-    margin-top: 900px;
-    width: 250px;
-    height: 200px;
-    font-size: 60px;
-    align-items: center;
-    border: 2px solid purple;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-  }
+.manipulacao{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
 
-  .display3{
-    background-color: black;
-    display: flex;
+ 
 
-    margin-top: 50px;
-    
-  }
 
-  #livro{
-    background-color: black;
-    color: blue;
 
-  }
+ 
 
+  
